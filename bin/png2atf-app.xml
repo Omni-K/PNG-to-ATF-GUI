@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/3.6">
+  <id>ru.omni-k.png2atfGUI</id>
+  <versionNumber>1.2.12</versionNumber>
+  <filename>PNG to ATF GUI</filename>
+  <description>This application converts PNG to ATF using Adobe programm. It is just GUI so it shares png2atf license.
+License: http://creativecommons.org/licenses/by-nc-nd/3.0/</description>
+  <name>PNG to ATF GUI</name>
+  <copyright>http://creativecommons.org/licenses/by-nc-nd/3.0/</copyright>
+  <initialWindow>
+    <content>png2atf.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>direct</renderMode>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <icon>
+    <image128x128>AppIconsForPublish/128.png</image128x128>
+    <image48x48>AppIconsForPublish/48.png</image48x48>
+    <image32x32>AppIconsForPublish/32.png</image32x32>
+    <image16x16>AppIconsForPublish/16.png</image16x16>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <supportedProfiles>extendedDesktop </supportedProfiles>
+  <programMenuFolder>PNG to ATF</programMenuFolder>
+</application>
